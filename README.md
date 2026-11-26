@@ -22,10 +22,9 @@ The dashboard incorporates interactive features such as **bookmarks, slicers, to
 
 Provides a high-level summary of EV charging network performance through KPI cards and interactive visualizations.
 
-
+![Executive Overview](./dashboard%20images/Executive.png)
 
 **Key Performance Indicators:**
-
 - Total Charging Sessions
 - Total Energy Consumed (kWh)
 - Total Charging Duration
@@ -39,10 +38,9 @@ Provides a high-level summary of EV charging network performance through KPI car
 
 Focuses on charger utilization, charging demand patterns, and operational performance.
 
-
+![Charging Analysis](./dashboard%20images/Charging.png)
 
 **Key Analysis:**
-
 - Charging Mix by Charger Power
 - Charging Demand Patterns
 - Charging Activity vs. Energy Consumption
@@ -55,10 +53,9 @@ Focuses on charger utilization, charging demand patterns, and operational perfor
 
 Evaluates charging behavior, energy consumption, charging duration, and performance across different vehicle categories.
 
-
+![Vehicle Analysis](./dashboard%20images/Vehicle.png)
 
 **Vehicle Categories:**
-
 - Cars
 - Two-Wheelers
 - Buses
@@ -69,10 +66,9 @@ Evaluates charging behavior, energy consumption, charging duration, and performa
 
 Provides insights into station-level performance and geographical charging demand.
 
-
+![Station & Location Analysis](./dashboard%20images/Station%26Location.png)
 
 **Key Analysis:**
-
 - Location Energy Share
 - Charging Sessions by Location Type
 - Top Charging Stations by Energy Consumption
@@ -83,13 +79,13 @@ Provides insights into station-level performance and geographical charging deman
 
 ## 🛠️ Tools & Technologies
 
-| Technology  | Purpose                                                   |
-| ----------- | --------------------------------------------------------- |
-| Power BI    | Dashboard development, visualization, and reporting       |
-| Power Query | Data cleaning and transformation                          |
-| DAX         | Measures, calculated metrics, and analytical calculations |
-| SQL         | Data querying and analysis                                |
-| Excel / CSV | Source data and supporting datasets                       |
+| Technology | Purpose |
+|---|---|
+| Power BI | Dashboard development, visualization, and reporting |
+| Power Query | Data cleaning and transformation |
+| DAX | Measures, calculated metrics, and analytical calculations |
+| SQL | Data querying and analysis |
+| Excel / CSV | Source data and supporting datasets |
 
 ---
 
@@ -97,40 +93,38 @@ Provides insights into station-level performance and geographical charging deman
 
 The dashboard includes several interactive capabilities to improve usability and analytical exploration.
 
-| Feature                  | Description                                                                |
-| ------------------------ | -------------------------------------------------------------------------- |
-| Bookmarks                | Enable interactive panels and predefined dashboard views                   |
-| Filters & Slicers        | Filter information by date, vehicle, and location                          |
-| Tooltips                 | Display additional contextual information on hover                         |
-| Drill-through            | Navigate from summary-level insights to detailed analysis                  |
-| Page Navigation          | Move between the four dashboard pages                                      |
-| Row-Level Security (RLS) | Restrict data visibility based on configured user access                   |
-| Settings Panel           | Includes Executive View, Detailed View, Reset Filters, and About Dashboard |
-| Notifications            | Displays predefined EV charging network alerts                             |
-| User Profile             | Displays current user, role, location access, and RLS status               |
+| Feature | Description |
+|---|---|
+| Bookmarks | Enable interactive panels and predefined dashboard views |
+| Filters & Slicers | Filter information by date, vehicle, and location |
+| Tooltips | Display additional contextual information on hover |
+| Drill-through | Navigate from summary-level insights to detailed analysis |
+| Page Navigation | Move between the four dashboard pages |
+| Row-Level Security (RLS) | Restrict data visibility based on configured user access |
+| Settings Panel | Includes Executive View, Detailed View, Reset Filters, and About Dashboard |
+| Notifications | Displays predefined EV charging network alerts |
+| User Profile | Displays current user, role, location access, and RLS status |
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-EV_Charging_Demand/
+EV_Charging_Demand_Analytics/
 │
-├── DASHBOARD IMAGES/
+├── dashboard images/
 │   ├── Charging.png
 │   ├── Executive.png
 │   ├── Station&Location.png
 │   └── Vehicle.png
 │
-├── EXCEL CSV/
+├── excel csv files data/
 │
-├── ICONS/
+├── powerbi dashboard/
 │
-├── POWERBI/
+├── sql/
 │
-├── SQL/
-│
-├── USER GUIDE/
+├── users guide/
 │
 └── README.md
 ```
@@ -177,7 +171,7 @@ This provides a structured approach to managing access to charging network infor
 
 ## 📖 User Guide
 
-The **USER GUIDE** folder contains documentation explaining how to navigate and use the Power BI dashboard.
+The **users guide** folder contains documentation explaining how to navigate and use the Power BI dashboard.
 
 It covers:
 
@@ -203,9 +197,9 @@ It combines data analytics and business intelligence concepts to support better 
 
 ## 👤 Project Information
 
-**Project:** EV Charging Demand Analytics
-**Category:** Data Analytics / Business Intelligence
-**Primary Tool:** Microsoft Power BI
+**Project:** EV Charging Demand Analytics  
+**Category:** Data Analytics / Business Intelligence  
+**Primary Tool:** Microsoft Power BI  
 **Data Coverage:** January 2025 – March 2025
 
 **Developed as a Power BI Data Analytics Project.**
